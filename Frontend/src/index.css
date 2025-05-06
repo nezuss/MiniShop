@@ -1,0 +1,23 @@
+body {
+    font-family: monospace, sans-serif;
+}
+
+*, ::before, ::after {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    border: 0 solid;
+    transition: all 0.2s ease-in-out;
+    word-wrap: break-word;
+}
+
+a, p, button {
+    font-size: 16px;
+}
+
+br { height: 12px; }
+hr { height: 1px; background-color: #000; }
+
+#root {
+    min-height: 100lvh;
+}
